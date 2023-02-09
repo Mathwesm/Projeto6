@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #ca24d9;
+    --white: #ffffff;
+  }
+
+
+
+body {
+    background: var(--body-bg-color);
+    color: var(--text-color);
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    
+    @media (max-width: 1080px) {
+      font-size: 93.75%; //15px
+    }
+    
+    @media (max-width: 720px) {
+      font-size: 87.5%; //14px
+    }
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+  .app-container {
+    display: flex;
+  }
